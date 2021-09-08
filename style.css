@@ -1,0 +1,95 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+.note
+{
+  font-size: 15px;
+  color: black;
+}
+body
+{
+  background-color: black;	
+}
+  .div_speed
+  {
+  	float: left;
+  }
+  .div_speed_img
+  {
+  	width: 300px; 
+  	border-radius: 100px;
+  }
+  .div_volume
+  {
+  	float: right;	
+  }
+  .div_volume_img
+  {
+  	width: 150px; 
+  	border-radius: 100px;
+    right: 100px;
+    top: 100px;
+    position: absolute;
+  }
+  #song
+  {
+  	font-size: 23px;
+  	margin: 15px;
+    color: white;
+    right: 650px;
+    position: absolute;
+  }
+   .play_button
+  {
+  	width: 130px;
+  	font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top:250px;
+  }
+
+  .stop_button
+  {
+  	width: 130px;
+  	font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top:250px;
+  }
+
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+  }
+
+  .div_disk_img{
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+  }
+
+  .div_disk2_img{
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+  }
+
+  .wave1{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    top: 0px;
+  }
+
+  .wave2{
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    top: 0px;
+  }
